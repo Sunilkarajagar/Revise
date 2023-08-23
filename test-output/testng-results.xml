@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[opening amazon]]>
+    </line>
+    <line>
+      <![CDATA[opening Flipkart]]>
+    </line>
+    <line>
+      <![CDATA[opening sd]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-23T16:48:59 IST" name="Suite" finished-at="2023-08-23T16:50:55 IST" duration-ms="115768">
+    <groups>
+    </groups>
+    <test started-at="2023-08-23T16:48:59 IST" name="Test" finished-at="2023-08-23T16:50:55 IST" duration-ms="115768">
+      <class name="E_commerce.Snapdeal">
+        <test-method signature="snapdealTest()[pri:0, instance:E_commerce.Snapdeal@20140db9]" started-at="2023-08-23T16:50:44 IST" name="snapdealTest" finished-at="2023-08-23T16:50:55 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening sd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- snapdealTest -->
+      </class> <!-- E_commerce.Snapdeal -->
+      <class name="E_commerce.Flipkart">
+        <test-method signature="FlipkartTest()[pri:0, instance:E_commerce.Flipkart@60099951]" started-at="2023-08-23T16:50:14 IST" name="FlipkartTest" finished-at="2023-08-23T16:50:44 IST" duration-ms="30711" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening Flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartTest -->
+      </class> <!-- E_commerce.Flipkart -->
+      <class name="E_commerce.amazon">
+        <test-method signature="amazontest()[pri:0, instance:E_commerce.amazon@2e6a8155]" started-at="2023-08-23T16:48:59 IST" name="amazontest" finished-at="2023-08-23T16:50:14 IST" duration-ms="74640" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazontest -->
+      </class> <!-- E_commerce.amazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
