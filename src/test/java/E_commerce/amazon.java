@@ -10,6 +10,7 @@ public class amazon {
   public void amazontest() {
 	  Reporter.log("opening amazon",true);
 	  WebDriver driver=new ChromeDriver();
+	  System.out.println("Hi");
 	  driver.get("https://www.amazon.in");
 	  driver.quit();
   }
