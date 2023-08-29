@@ -11,12 +11,12 @@
       <![CDATA[opening sd]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-08-23T19:45:16 IST" name="Suite" finished-at="2023-08-23T19:46:13 IST" duration-ms="56668">
+  <suite started-at="2023-08-29T20:46:14 IST" name="Suite" finished-at="2023-08-29T20:47:00 IST" duration-ms="45792">
     <groups>
     </groups>
-    <test started-at="2023-08-23T19:45:16 IST" name="Test" finished-at="2023-08-23T19:46:13 IST" duration-ms="56668">
+    <test started-at="2023-08-29T20:46:14 IST" name="Test" finished-at="2023-08-29T20:47:00 IST" duration-ms="45792">
       <class name="E_commerce.Snapdeal">
-        <test-method signature="snapdealTest()[pri:0, instance:E_commerce.Snapdeal@4b0d79fc]" started-at="2023-08-23T19:46:01 IST" name="snapdealTest" finished-at="2023-08-23T19:46:13 IST" duration-ms="12096" status="PASS">
+        <test-method signature="snapdealTest()[pri:0, instance:E_commerce.Snapdeal@5bfa9431]" started-at="2023-08-29T20:46:51 IST" name="snapdealTest" finished-at="2023-08-29T20:47:00 IST" duration-ms="8657" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[opening sd]]>
@@ -25,7 +25,7 @@
         </test-method> <!-- snapdealTest -->
       </class> <!-- E_commerce.Snapdeal -->
       <class name="E_commerce.Flipkart">
-        <test-method signature="FlipkartTest()[pri:0, instance:E_commerce.Flipkart@55634720]" started-at="2023-08-23T19:45:49 IST" name="FlipkartTest" finished-at="2023-08-23T19:46:01 IST" duration-ms="11926" status="PASS">
+        <test-method signature="FlipkartTest()[pri:0, instance:E_commerce.Flipkart@2fd6b6c7]" started-at="2023-08-29T20:46:39 IST" name="FlipkartTest" finished-at="2023-08-29T20:46:51 IST" duration-ms="12057" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[opening Flipkart]]>
@@ -34,7 +34,7 @@
         </test-method> <!-- FlipkartTest -->
       </class> <!-- E_commerce.Flipkart -->
       <class name="E_commerce.amazon">
-        <test-method signature="amazontest()[pri:0, instance:E_commerce.amazon@6253c26]" started-at="2023-08-23T19:45:16 IST" name="amazontest" finished-at="2023-08-23T19:45:49 IST" duration-ms="32571" status="PASS">
+        <test-method signature="amazontest()[pri:0, instance:E_commerce.amazon@184cf7cf]" started-at="2023-08-29T20:46:14 IST" name="amazontest" finished-at="2023-08-29T20:46:39 IST" duration-ms="25013" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[opening amazon]]>

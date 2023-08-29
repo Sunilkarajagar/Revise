@@ -5,9 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,9 +20,9 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -131,6 +130,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">E_commerce.Flipkart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipkartTest">
+                  </a> <!-- FlipkartTest -->
+                  <span class="method-name">FlipkartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">E_commerce.Snapdeal</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -154,21 +168,6 @@
                   <a name="amazontest">
                   </a> <!-- amazontest -->
                   <span class="method-name">amazontest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">E_commerce.Flipkart</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FlipkartTest">
-                  </a> <!-- FlipkartTest -->
-                  <span class="method-name">FlipkartTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,20 +230,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'amazontest')
 data.setCell(0, 2, 'E_commerce.amazon')
-data.setCell(0, 3, 32571);
+data.setCell(0, 3, 25013);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'snapdealTest')
-data.setCell(1, 2, 'E_commerce.Snapdeal')
-data.setCell(1, 3, 12096);
+data.setCell(1, 1, 'FlipkartTest')
+data.setCell(1, 2, 'E_commerce.Flipkart')
+data.setCell(1, 3, 12057);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'FlipkartTest')
-data.setCell(2, 2, 'E_commerce.Flipkart')
-data.setCell(2, 3, 11926);
+data.setCell(2, 1, 'snapdealTest')
+data.setCell(2, 2, 'E_commerce.Snapdeal')
+data.setCell(2, 3, 8657);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -256,9 +255,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">amazontest</span>
+              <span class="reporter-method-name">snapdealTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">opening amazon</span>
+                <span class="reporter-method-output">opening sd</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -268,9 +267,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">snapdealTest</span>
+              <span class="reporter-method-name">amazontest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">opening sd</span>
+                <span class="reporter-method-output">opening amazon</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -298,19 +297,18 @@ return data;
               <div class="chronological-class-name">E_commerce.Flipkart</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FlipkartTest</span>
-                <span class="method-start">32582 ms</span>
+                <span class="method-start">25022 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E_commerce.Snapdeal</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">snapdealTest</span>
-                <span class="method-start">44512 ms</span>
+                <span class="method-start">37080 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
